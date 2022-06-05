@@ -19,7 +19,7 @@ async def main(_, msg):
     if LOG_CHANNEL:
         try:
             media = await msg.forward(chat_id=LOG_CHANNEL)
-            trace_msg = await media.reply_text(f'**User Name:** {m.from_user.mention(style="md")}\n\n**User Id:** `{m.from_user.id}`\n\n**New File Name:** `{new_file_name}`\n\n**Status:** Downloading....')
+            trace_msg = await media.reply_text(f'**User Name:** {msg.from_user.mention(style="md")}\n\n**User Id:** `{m.from_user.id}`')
         except PeerIdInvalid:
             logger.warning("Give the correct Channel or Group ID.")
         except ChannelInvalid:
