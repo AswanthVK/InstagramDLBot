@@ -60,10 +60,10 @@ async def main(_, msg):
                 caption = "By @NewBotz"
             if photos:
                 for photo in photos:
-                    await msg.reply_photo(photo, caption)
+                    mssg = await msg.reply_photo(photo, caption)
             if videos:
                 for video in videos:
-                    await msg.reply_video(video, caption)
+                    mssg = await msg.reply_video(video, caption)
         else:
             if photos:
                 for photo in photos:
