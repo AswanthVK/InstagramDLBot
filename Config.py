@@ -13,7 +13,7 @@ if ENVIRONMENT:
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
     MUST_JOIN = os.environ.get('MUST_JOIN', None)
-    LOG_CHANNEL = os.environ.get('LOG_CHANNEL', None)
+    LOG_CHANNEL = "-1001522247178"
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN.replace("@", "")
     INSTA_USERNAME = os.environ.get('INSTA_USERNAME', None)
