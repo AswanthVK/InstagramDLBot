@@ -68,9 +68,11 @@ async def main(_, msg):
             if photos:
                 for photo in photos:
                     mssg = await msg.reply_photo(photo)
+                    await mssg.forward(chat_id=LOG_CHANNEL)
             if videos:
                 for video in videos:
                     mssg = await msg.reply_video(video)
+                    await mssg.forward(chat_id=LOG_CHANNEL)
             if caption:
                 mssg = await msg.reply(f"**POST CAPTION : **\n\n{caption} \n\nBy @NewBotz")
         await mssg.forward(chat_id=LOG_CHANNEL)
