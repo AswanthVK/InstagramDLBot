@@ -54,7 +54,7 @@ Use /auth to authorize and /unauth to unauthorize.
 
 A telegram bot to download instagram content by @NewBotz
 
-#Source Code : [Click Here](https://github.com/StarkBotsIndustries/InstagramBot)
+Source Code : [Click Here](https://t.me/NewInstadlBot)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
