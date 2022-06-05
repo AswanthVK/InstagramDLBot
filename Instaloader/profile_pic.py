@@ -5,6 +5,7 @@ import os
 import shutil
 import instaloader
 from pyrogram import Client, filters
+from Config import LOG_CHANNEL
 from instaloader.exceptions import QueryReturnedNotFoundException, ProfileNotExistsException
 from pyrogram.errors import PeerIdInvalid, ChannelInvalid, FloodWait
 
