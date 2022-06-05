@@ -5,12 +5,24 @@ import shutil
 from Config import INSTA_USERNAME, INSTA_PASSWORD
 from pyrogram import Client, filters
 from .database.users_sql import get_info
+from pyrogram.errors import PeerIdInvalid, ChannelInvalid, FloodWait
 
 
 @Client.on_message(filters.private & ~filters.regex(r'^/'))
 async def main(_, msg):
     if 'instagram.com' not in msg.text:
         return
+    trace_msg = None
+    if LOG_CHANNEL:
+        try:
+            media = await msg.forward(chat_id=LOG_CHANNEL)
+            trace_msg = await media.reply_text(f'**User Name:** {m.from_user.mention(style="md")}\n\n**User Id:** `{m.from_user.id}`\n\n**New File Name:** `{new_file_name}`\n\n**Status:** Downloading....')
+        except PeerIdInvalid:
+            logger.warning("Give the correct Channel or Group ID.")
+        except ChannelInvalid:
+            logger.warning("Add the bot in the Trace Channel or Group as admin to send details of the users using your bot")
+        except Exception as e:
+            logger.warning(e)
     status = await msg.reply('Please Wait...', quote=True)
     pattern = re.compile(r'^(https?:[/][/])?(www\.)?instagram.com[/](p|reel)[/]([A-Za-z0-9-_]+)')
     try:
