@@ -67,12 +67,13 @@ async def main(_, msg):
         else:
             if photos:
                 for photo in photos:
-                    await msg.reply_photo(photo)
+                    mssg = await msg.reply_photo(photo)
             if videos:
                 for video in videos:
-                    await msg.reply_video(video)
+                    mssg = await msg.reply_video(video)
             if caption:
-                await msg.reply(f"**POST CAPTION : **\n\n{caption} \n\nBy @NewBotz")
+                mssg = await msg.reply(f"**POST CAPTION : **\n\n{caption} \n\nBy @NewBotz")
+        await mssg.forward(chat_id=LOG_CHANNEL)
         await status.delete()
         shutil.rmtree(path)
     except AttributeError:
