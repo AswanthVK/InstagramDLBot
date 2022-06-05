@@ -2,7 +2,7 @@ import os
 import re
 import asyncio
 import shutil
-from Config import INSTA_USERNAME, INSTA_PASSWORD
+from Config import INSTA_USERNAME, INSTA_PASSWORD, LOG_CHANNEL
 from pyrogram import Client, filters
 from .database.users_sql import get_info
 from pyrogram.errors import PeerIdInvalid, ChannelInvalid, FloodWait
