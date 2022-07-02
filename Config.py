@@ -25,7 +25,7 @@ else:
     BOT_TOKEN = ""
     DATABASE_URL = ""
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "NewBotz"
+    MUST_JOIN = ""
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
     INSTA_USERNAME = ""
