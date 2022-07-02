@@ -38,7 +38,7 @@ Send the link here to get the post contents including caption.
 
 2) **Profile Pictures**
 Use the command `/profile_pic` or `/dp` along with instagram username to get its profile picture.
-Example : `/dp StarkProgrammer`
+Example : `/dp NewBotz`
 
 3) **Private Posts**
 Authorize the bot to download private posts. Use /auth
