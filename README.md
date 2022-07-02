@@ -1,8 +1,8 @@
-# Instagram Downloader Bot [@InstaloaderStarkBot](https://t.me/InstaloaderStarkBot)
+# Instagram Downloader Bot [@NewInstaDLBot](https://t.me/NewInstaDLBot)
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/StarkBotsIndustries/InstagramBot"><img src="https://telegra.ph/file/4e8e8063cfb0de22b0161.jpg" width="2000"></a></p>
+<p align="center"><a href="https://www.github.com/AswanthVK/InstagramBot"><img src="https://telegra.ph/file/4e8e8063cfb0de22b0161.jpg" width="2000"></a></p>
 
 Telegram bot to download instagram content.
 
@@ -12,9 +12,9 @@ Telegram bot to download instagram content.
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/StarkBotsIndustries/InstagramBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AswanthVK/InstagramBot)
 
-1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN` (and `MUST_JOIN`).
+1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN`, `MUST_JOIN` and `LOG_CHANNEL`.
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
 3. After deploying is complete, tap on "Manage App"
 4. Check the logs to see if your bot is ready!
@@ -23,7 +23,7 @@ Telegram bot to download instagram content.
 
 1. Clone the repo
    ```markdown
-   git clone https://github.com/StarkBotsIndustries/InstagramBot
+   git clone https://github.com/AswanthVK/InstagramBot
    ```
 2. Get a DATABASE_URL. If you don't know how, deploy using Heroku Button only or delete database things as it's not a compulsion.
    
@@ -47,6 +47,7 @@ Telegram bot to download instagram content.
 - `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
 - `DATABASE_URL` - Will be automatically added by Heroku.
 - `MUST_JOIN` - Username/ID of your telegram channel/group.
+- `LOG_CHANNEL` - Username/ID of your telegram channel/group.
 
 ## Functions
 
@@ -74,14 +75,14 @@ Stories and Profiles
 
 ## Support
 
-Channel :- [@StarkBots](https://t.me/StarkBots)
+Channel :- [@NewBotz](https://t.me/NewBotz)
 
-Group Chat :- [@StarkBotsChat](https://t.me/StarkBotsChat)
+Group Chat :- [@NewBotzSupport](https://t.me/NewBotzSupport)
 
 ## :)
 
 [![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/StarkBotsIndustries)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/AswanthVK)
 
-[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](https://github.com/StarkBotsIndustries)
+[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](https://github.com/AswanthVK)
