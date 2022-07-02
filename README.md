@@ -2,7 +2,7 @@
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/AswanthVK/InstagramBot"><img src="https://telegra.ph/file/4e8e8063cfb0de22b0161.jpg" width="2000"></a></p>
+<p align="center"><a href="https://www.github.com/AswanthVK/InstagramBot"><img src="https://telegra.ph/file/04d2730eaf1b51208d33a.jpg" width="2000"></a></p>
 
 Telegram bot to download instagram content.
 
@@ -14,7 +14,7 @@ Telegram bot to download instagram content.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AswanthVK/InstagramBot)
 
-1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN`, `MUST_JOIN` and `LOG_CHANNEL`.
+1. Tap on above button and fill 
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
 3. After deploying is complete, tap on "Manage App"
 4. Check the logs to see if your bot is ready!
@@ -71,6 +71,8 @@ Stories and Profiles
 ## Credits
 
 - [Dan Tès](https://github.com/delivrance) for his [Pyrogram](https://docs.pyrogram.org) Library
+- [StarkBotsIndustries](https://github.com/StarkBotsIndustries) for his [InstagramBot](https://github.com/StarkBotsIndustries/InstagramBot) Repo
+- [Me](https://github.com/AswanthVK)
 
 
 ## Support
