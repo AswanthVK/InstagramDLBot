@@ -2,7 +2,7 @@
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/AswanthVK/InstagramBot"><img src="https://telegra.ph/file/04d2730eaf1b51208d33a.jpg" width="2000"></a></p>
+<p align="center"><a href="https://www.github.com/AswanthVK/InstagramDLBot"><img src="https://telegra.ph/file/04d2730eaf1b51208d33a.jpg" width="2000"></a></p>
 
 Telegram bot to download instagram content.
 
@@ -12,7 +12,7 @@ Telegram bot to download instagram content.
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AswanthVK/InstagramBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AswanthVK/InstagramDLBot)
 
 1. Tap on above button and fill 
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
@@ -23,7 +23,7 @@ Telegram bot to download instagram content.
 
 1. Clone the repo
    ```markdown
-   git clone https://github.com/AswanthVK/InstagramBot
+   git clone https://github.com/AswanthVK/InstagramDLBot
    ```
 2. Get a DATABASE_URL. If you don't know how, deploy using Heroku Button only or delete database things as it's not a compulsion.
    
